@@ -64,7 +64,9 @@ The model training may take time to train and hence you can use Google colab.
 
 The model is overfitting because we can also see difference in loss functions in training & test around the 10-11th epoch
 
-The accuracy is just around 40-48% because there are enough features to remember the pattern.
+The Training Accuracy is just around 80% because there are enough features to remember the pattern.
+
+The Validation Accuracy is just around 40-48% because there are enough features to remember the pattern.
 
 But again, it's too early to comment on the overfitting & underfitting debate
 
