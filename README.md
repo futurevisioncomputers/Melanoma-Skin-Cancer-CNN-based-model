@@ -60,7 +60,8 @@ The model training may take time to train and hence you can use Google colab.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- First base model
+
+### First Model (with 20 epochs)
 
 The model is overfitting because we can also see difference in loss functions in training & test around the 10-11th epoch
 
@@ -71,7 +72,7 @@ The Validation Accuracy is just around 40-48% because there are enough features 
 But again, it's too early to comment on the overfitting & underfitting debate
 
 
-- Second Model
+### Second Model (with 20 epochs)
 
 There is improvement in accuracy upto 55% but we can definitely see the overfitting problem has solved due to data augmentation
 
@@ -79,18 +80,18 @@ We can increase the epochs to increase the accuracy so it's too early for judgem
 
 
 - Which class has the least number of samples?
-- Answer-1 :- squamous cell carcinoma has least number of samples
+- <b>Answer-1  </b>:- squamous cell carcinoma has least number of samples
 
 - Which classes dominate the data in terms proportionate number of samples?
-- Answer-2:- actinic keratosis and dermatofibroma have proportionate number of classes. melanoma and pigmented benign keratosis have proprtionate number of classes.
+- <b>Answer-2 </b>:- actinic keratosis and dermatofibroma have proportionate number of classes. melanoma and pigmented benign keratosis have proprtionate number of classes.
 
-- Third Model
+### Third Model (with 30 epochs)
 
 - Accuracy on training data has increased by using Augmentor library.
 
-- Model looks overfitting (model accurecy 90 and val_accuracy: 0.7896).
+- Model looks overfitting (Model accurecy 90% and val_accuracy: 79%).
 
-- loss: Training data loss: 0.2992 and test data loss 0.7896
+- Loss: Training data loss: 0.2992 and test data loss 0.7896
 
 - class rebalance help to increase accuracy but model look overfitting if we add more epochs.
 
