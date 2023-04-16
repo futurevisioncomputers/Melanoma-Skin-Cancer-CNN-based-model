@@ -85,13 +85,18 @@ We can increase the epochs to increase the accuracy so it's too early for judgem
 - Answer-2:- actinic keratosis and dermatofibroma have proportionate number of classes. melanoma and pigmented benign keratosis have proprtionate number of classes.
 
 - Third Model
-Accuracy on training data has increased by using Augmentor library
 
-Model is still overfitting
+- Accuracy on training data has increased by using Augmentor library.
 
-The problem of overfitting can be solved by add more layer,neurons or adding dropout layers.
+- Model looks overfitting (model accurecy 90 and val_accuracy: 0.7896).
 
-The Model can be further improved by tuning the hyperparameter
+- loss: Training data loss: 0.2992 and test data loss 0.7896
+
+- class rebalance help to increase accuracy but model look overfitting if we add more epochs.
+
+- The problem of overfitting can be solved by add more layer, neurons or adding dropout layers.
+
+- The Model can be further improved by tuning the hyperparameter.
 
 
 
